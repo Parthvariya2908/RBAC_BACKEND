@@ -170,17 +170,7 @@ This is a backend implementation of Role-Based Access Control (RBAC) for a web a
     }
     ```
 
-- **DELETE /api/admin/delete-user/:id**: Delete a user by ID (admin only).
-
-    **Requires**: `isAuthenticated`, `authorizeRoles("admin")`
-
-    **Response**:
-
-    ```json
-    {
-        "message": "User deleted successfully"
-    }
-    ```
+  
 
 ### Content-Specific Routes
 
