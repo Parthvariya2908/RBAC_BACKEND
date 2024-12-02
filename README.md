@@ -135,26 +135,6 @@ This is a backend implementation of Role-Based Access Control (RBAC) for a web a
     }
     ```
 
-- **PUT /api/profile/update**: Update user details (email, password, etc.).
-
-    **Requires**: `isAuthenticated`
-
-    **Request Body**:
-
-    ```json
-    {
-        "email": "new-email@example.com",
-        "password": "new-password"
-    }
-    ```
-
-    **Response**:
-
-    ```json
-    {
-        "message": "Profile updated successfully"
-    }
-    ```
 
 ### Admin Routes
 
